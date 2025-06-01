@@ -4,7 +4,7 @@
 First create directories $HOME/.config $HOME/.local/share/ and $HOME/.local/bin
 and then use stow to stow the stuff.
 
-##TODO:
+## TODO:
 - [ ] Get waybar setup 
 - [ ] Install Gruvbox-Gtk theme 
 - [ ] Install Gruvbox plus icons

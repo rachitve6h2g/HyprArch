@@ -19,6 +19,9 @@ source $ZDOTDIR/arch_zsh.zsh
 # Let fzf_opts be at the end 
 source $ZDOTDIR/fzf_colors.zsh
 
+# For lazygit changing directory on exit 
+source $ZDOTDIR/lazygit.zsh
+
 # For starship prompt
 eval "$(starship init zsh)"
 

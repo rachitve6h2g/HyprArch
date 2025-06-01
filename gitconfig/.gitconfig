@@ -1,0 +1,8 @@
+[init]
+	defaultBranch = main
+[user]
+	email = rachitverma1122@gmail.com
+	name = Rachit Kumar Verma
+[alias]
+  ss = status --short --branch
+

@@ -3,3 +3,14 @@ prepend_fetchers = [
   { id = "git", name = "*", run = "git" },
   { id = "git", name = "*/", run = "git" },
 ]
+
+# See https://yazi-rs.github.io/docs/tips#mpv-subtitle
+[opener]
+add-sub = [
+{ run = ''' echo sub-add "'$0'" | socat - /tmp/mpv.sock ''', desc = "Add sub to MPV" },
+]
+
+[open]
+prepend_rules = [
+{ name = "*.{ass,srt,ssa,sty,sup,vtt}", use = [ "add-sub", "edit" ] },
+]

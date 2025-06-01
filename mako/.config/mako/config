@@ -1,0 +1,26 @@
+max-history=10
+anchor=top-center
+
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+on-button-middle=exec makoctl menu -n "$id" wofi -S dmenu -p 'Select Action: '
+
+font=monospace 11
+
+background-color=#1d2021
+text-color=#ddc7a1
+border-color=#d8a657
+progress-color=over #32302f
+
+border-radius=10
+icons=1
+icon-path=/home/krish/.local/share/icons/Gruvbox-Plus-Dark
+markup=1
+
+default-timeout=5000
+ignore-timeout=1
+
+[mode=do-not-disturb]
+invisible=1
+
+[urgency=high]
+border-color=#e78a4e

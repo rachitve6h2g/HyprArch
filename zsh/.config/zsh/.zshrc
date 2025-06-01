@@ -1,3 +1,4 @@
+export EDITOR='nvim'
 # See the note in the zinit.zsh file in case
 # you load compinit
 source $ZDOTDIR/zinit.zsh

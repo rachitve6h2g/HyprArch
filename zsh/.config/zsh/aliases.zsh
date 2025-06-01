@@ -16,14 +16,12 @@ alias kitcat="kitten icat"
 
 # Get eza working
 # Can be managed by oh-my-zsh
-alias l='eza --icons --color'
-alias ls='eza --icons --color'
-alias ll='eza --icons --color -l'
-alias la='eza --icons --color -al'
-alias dir='eza --icons --only-dirs --color'
-alias lg='eza --icons --color --git -l'
-alias lgt='eza --icons --color --git -T -l -a --level 2'
-alias tree='eza --icons --color -T'
+alias ls='eza --extended --git --group-directories-first --header --icons --color'
+alias l='ls -l'
+alias ll='ls -l'
+alias la='ls -al'
+alias dir='ls --only-dirs'
+alias tree='ls -T'
 # Jump to the git source directory
 alias cdg='cd $(git rev-parse --show-toplevel)'
 

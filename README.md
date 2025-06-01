@@ -11,3 +11,4 @@ and then use stow to stow the stuff.
 - [ ] Install and configure yazi
 - [ ] Install bibata hyprcursor
 - [ ] Make uniform qt and gtk theme
+- [ ] Make a gruvbox-material yazi theme ([Hint](https://github.com/yazi-rs/flavor-template))

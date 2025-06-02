@@ -15,3 +15,4 @@ and then use stow to stow the stuff.
   - [ ] Use [this](https://github.com/lpnh/icons-brew.yazi/blob/main/config.lua) to configure icons
 - [ ] Add a "Read-only" warning symbol to starship prompt
 - [ ] Learn lazygit
+- [ ] Learn about the various systemd-services that are preloaded in Arch

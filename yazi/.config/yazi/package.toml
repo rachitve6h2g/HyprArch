@@ -13,6 +13,11 @@ use = "yazi-rs/plugins:git"
 rev = "63f9650"
 hash = "bf6f074cd41ee33c3360341d168f9733"
 
+[[plugin.deps]]
+use = "boydaihungst/mediainfo"
+rev = "c6d0de7"
+hash = "7b024fc14b462235068400207cbe7bf0"
+
 [[flavor.deps]]
 use = "bennyyip/gruvbox-dark"
 rev = "91fdfa7"

@@ -1,7 +1,17 @@
 [plugin]
 prepend_fetchers = [
-  { id = "git", name = "*", run = "git" },
-  { id = "git", name = "*/", run = "git" },
+{ id = "git", name = "*", run = "git" },
+{ id = "git", name = "*/", run = "git" },
+]
+prepend_preloaders = [
+  # Replace magick, image, video with mediainfo
+{ mime = "{audio,video,image}/*", run = "mediainfo" },
+{ mime = "application/subrip", run = "mediainfo" },
+]
+prepend_previewers = [
+  # Replace magick, image, video with mediainfo
+{ mime = "{audio,video,image}/*", run = "mediainfo"},
+{ mime = "application/subrip", run = "mediainfo" },
 ]
 
 # See https://yazi-rs.github.io/docs/tips#mpv-subtitle

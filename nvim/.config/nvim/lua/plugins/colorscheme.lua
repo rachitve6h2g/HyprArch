@@ -106,8 +106,8 @@ return {
   -- },
 
   {
-    'sainnhe/gruvbox-material',
-    name = 'gruvbox-material',
+    "sainnhe/gruvbox-material",
+    name = "gruvbox-material",
     lazy = false,
     priority = 1000,
     config = function()
@@ -128,9 +128,9 @@ return {
         vim.api.nvim_set_hl(0, "LineNrBelow", { fg = "#d3869b", bold = true })
       end
 
-      vim.cmd.colorscheme('gruvbox-material')
+      vim.cmd.colorscheme("gruvbox-material")
       LineNumberColors()
-    end
+    end,
   },
 
   -- make LazuVim use this

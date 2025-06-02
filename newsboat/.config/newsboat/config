@@ -1,2 +1,1 @@
-include /usr/share/doc/newsboat/contrib/colorschemes/gruvbox
-auto-reload yes
+include ~/.config/newsboat/dark
